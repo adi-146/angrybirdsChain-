@@ -1,5 +1,5 @@
 class Chain {
-  constuctor (bodyA,bodyB){
+  constructor (bodyA,bodyB){
         var options = {
         bodyA: bodyA,
         bodyB: bodyB,
@@ -15,7 +15,7 @@ class Chain {
  var pointA = this.chain.bodyA.position;
 var pointB = this.chain.bodyB.position;
  strokeWeight(3);
- line(pointA.x,pointA.y,ponitB.x,pointB.y);
+ line(pointA.x,pointA.y,pointB.x,pointB.y);
  } 
   }
 
